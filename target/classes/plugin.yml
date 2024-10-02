@@ -1,0 +1,17 @@
+name: VoidFallProtection
+version: '1.1.2'
+main: com.LanRhyme.VoidFallProtection
+api-version: '1.21'
+load: STARTUP
+authors: [ LanRhyme ]
+description: Protects players from taking fall damage in the void.
+commands:
+  voidfall:
+    description: Manage void fall protection.
+    usage: "用法: /voidfall <toggle[启用/禁用] | count[查看] | top[排行榜]>"
+    permission: voidfall.use
+    tabcomplete: [ "toggle", "count", "top" ]
+permissions:
+  voidfall.use:
+    description: Allows the user to use the /voidfall command.
+    default: op
