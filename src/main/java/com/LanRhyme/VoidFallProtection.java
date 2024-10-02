@@ -42,11 +42,11 @@ public class VoidFallProtection extends JavaPlugin implements Listener {
         this.dataConfig = new YamlConfiguration();
 
         // 加载掉落次数数据
-        loadFallCounts();
+        this.loadFallCounts();
         // 保存默认配置文件
-        saveDefaultConfig();
+        this.saveDefaultConfig();
         // 注册事件监听器
-        getServer().getPluginManager().registerEvents(this, this);
+        this.getServer().getPluginManager().registerEvents(this, this);
         // 设置命令执行器
         this.getCommand("voidfall").setExecutor(this);
     }
