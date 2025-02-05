@@ -5,7 +5,7 @@ VoidFallProtection 是一个用于 Minecraft 服务器的插件，旨在保护�
 
 当玩家掉入虚空区域时，插件会自动记录掉落次数，并给予漂浮和缓降效果以保护玩家
 
-适用于1.13及以上版本的服务端
+适用于1.20及以上版本的服务端
 
 ![QQ20241002-190801.png](QQ20241002-190801.png)
 
@@ -36,6 +36,5 @@ VoidFallProtection 是一个用于 Minecraft 服务器的插件，旨在保护�
 ## 支持与反馈
 如果你在使用过程中遇到任何问题，或者有任何建议，请通过以下方式联系我们：
 - [GitHub Issue Tracker](https://github.com/LanRhyme/VoidFallProtectionPlugin/issues)
-- 电子邮件：xiao_ren233@foxmail.com
 - 虽然我基本都会看，但我很摆，所以别指望(
 
